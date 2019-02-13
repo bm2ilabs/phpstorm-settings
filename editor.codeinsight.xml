@@ -1,0 +1,8 @@
+<application>
+  <component name="PhpCodeFoldingSettings">
+    <option name="COLLAPSE_PHP_TAGS" value="true" />
+  </component>
+  <component name="XmlFoldingSettings">
+    <option name="COLLAPSE_XML_TAGS" value="true" />
+  </component>
+</application>
