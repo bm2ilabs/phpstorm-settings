@@ -1,0 +1,8 @@
+<templateSet group="Laravel-Blade">
+  <template name="@icon" value="@icon($START$)" description="Blade @icon" toReformat="false" toShortenFQNames="true">
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
