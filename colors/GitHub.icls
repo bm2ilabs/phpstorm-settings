@@ -5,15 +5,14 @@
   <option name="EDITOR_FONT_NAME" value="Fira Code Medium" />
   <option name="EDITOR_LIGATURES" value="true" />
   <console-font>
-    <option name="EDITOR_FONT_NAME" value="Fira Code" />
+    <option name="EDITOR_FONT_NAME" value="Fira Code Medium" />
     <option name="EDITOR_FONT_SIZE" value="13" />
   </console-font>
   <console-font>
     <option name="EDITOR_FONT_NAME" value="Droid Sans Mono" />
-    <option name="EDITOR_FONT_SIZE" value="14" />
+    <option name="EDITOR_FONT_SIZE" value="13" />
   </console-font>
   <option name="CONSOLE_LIGATURES" value="true" />
-  <option name="CONSOLE_LINE_SPACING" value="1.2" />
   <colors>
     <option name="METHOD_SEPARATORS_COLOR" value="" />
   </colors>
@@ -78,7 +77,7 @@
     </option>
     <option name="CONSOLE_SYSTEM_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="7e8d8f" />
+        <option name="FOREGROUND" value="394749" />
       </value>
     </option>
     <option name="CONSOLE_USER_INPUT">
