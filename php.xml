@@ -9,17 +9,17 @@
     <interpreters>
       <interpreter id="561a0c6d-a1fe-4e27-a688-1e01335ef25b" name="PHP 7.1" home="/usr/local/Cellar/php@7.1/7.1.21/bin/php" debugger_id="php.debugger.XDebug" />
       <interpreter id="dedc5399-4920-4faf-8305-8457b5fa7b0b" name="PHP 7.2" home="/usr/local/Cellar/php/7.2.12/bin/php" debugger_id="php.debugger.XDebug" />
-      <interpreter id="285b9108-75fe-4748-8e2c-0bfa335e106a" name="PHP 7.3" home="/usr/local/Cellar/php/7.3.7.reinstall/bin/php" debugger_id="php.debugger.XDebug" />
+      <interpreter id="285b9108-75fe-4748-8e2c-0bfa335e106a" name="PHP 7.3" home="/usr/local/bin/php" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="PHP 7.3">
-        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php/7.3.7.reinstall/bin/php-cgi" php_cli="/usr/local/Cellar/php/7.3.7.reinstall/bin/php" path_separator=":" version="7.3.7">
-          <additional_php_ini>/usr/local/etc/php/7.3/conf.d/ext-opcache.ini</additional_php_ini>
-          <configuration_file>/usr/local/etc/php/7.3/php.ini</configuration_file>
+        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/valet-php@7.3/7.3.8/bin/php-cgi" php_cli="/usr/local/Cellar/valet-php@7.3/7.3.8/bin/php" path_separator=":" version="7.3.8">
+          <additional_php_ini>/usr/local/etc/valet-php/7.3/conf.d/ext-opcache.ini, /usr/local/etc/valet-php/7.3/conf.d/z-performance.ini</additional_php_ini>
+          <configuration_file>/usr/local/etc/valet-php/7.3/php.ini</configuration_file>
           <configuration_options>
-            <configuration_option name="include_path" value=".:/usr/local/Cellar/php/7.3.7/share/php/pear" />
+            <configuration_option name="include_path" value=".:/usr/local/Cellar/valet-php@7.3/7.3.8/share/valet-php@7.3/pear" />
           </configuration_options>
           <debuggers />
           <loaded_extensions>
@@ -30,6 +30,9 @@
             <extension name="Reflection" />
             <extension name="SPL" />
             <extension name="SimpleXML" />
+            <extension name="Zend OPcache" />
+            <extension name="apc" />
+            <extension name="apcu" />
             <extension name="bcmath" />
             <extension name="bz2" />
             <extension name="calendar" />
@@ -43,10 +46,12 @@
             <extension name="filter" />
             <extension name="ftp" />
             <extension name="gd" />
+            <extension name="geoip" />
             <extension name="gettext" />
             <extension name="gmp" />
             <extension name="hash" />
             <extension name="iconv" />
+            <extension name="imagick" />
             <extension name="intl" />
             <extension name="json" />
             <extension name="ldap" />
@@ -85,6 +90,7 @@
             <extension name="xmlrpc" />
             <extension name="xmlwriter" />
             <extension name="xsl" />
+            <extension name="yaml" />
             <extension name="zip" />
             <extension name="zlib" />
           </loaded_extensions>
