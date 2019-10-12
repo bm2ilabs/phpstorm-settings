@@ -1,0 +1,7 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="XML/Remove attribute" />
+    <ignoreAction name="CSS/Extract ruleset" />
+    <ignoreAction name="PHP/Add PHPDoc comment" />
+  </component>
+</application>
