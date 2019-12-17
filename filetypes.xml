@@ -7,12 +7,13 @@
       <mapping pattern=".php_cs" type="PHP" />
       <mapping pattern="image.blade.php" type="PLAIN_TEXT" />
       <mapping pattern=".prettierrc" type="PLAIN_TEXT" />
-      <mapping pattern="_redirects" type="PLAIN_TEXT" />
       <mapping pattern=".env.dusk.local" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping pattern="Reviewable" type="PLAIN_TEXT" />
+      <mapping pattern="_redirects" type="PLAIN_TEXT" />
       <mapping pattern=".styleci" type="PLAIN_TEXT" />
+      <mapping ext="pem" type="PLAIN_TEXT" />
       <mapping ext="neon" type="PLAIN_TEXT" />
       <mapping ext="stub" type="PLAIN_TEXT" />
       <mapping ext="text" type="PLAIN_TEXT" />
