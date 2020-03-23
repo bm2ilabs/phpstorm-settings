@@ -3,5 +3,6 @@
     <ignoreAction name="XML/Remove attribute" />
     <ignoreAction name="CSS/Extract ruleset" />
     <ignoreAction name="PHP/Add PHPDoc comment" />
+    <ignoreAction name="Language Injection/Edit Injected Fragment" />
   </component>
 </application>
